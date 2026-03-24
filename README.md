@@ -1,75 +1,63 @@
-# 🚀 C Language: From the Core
+# C Language: From the Core
 
-Welcome to the ultimate repository for learning **C Programming** from the ground up! Whether you are a beginner starting with `Hello World` or an enthusiast diving into **Dynamic Memory Management** and **System-level I/O**, this repo has something for you. 🌟
+This repository is a large C practice collection organized by topic. It is designed for step-by-step learning, revision, and hands-on problem solving.
 
----
+## What You Will Find
 
-## 📖 Table of Contents
-- [✨ Features](#-features)
-- [📚 Topics Covered](#-topics-covered)
-- [🛠️ How to Compile & Run](#️-how-to-compile--run)
-- [📂 Explore the Repository](#-explore-the-repository-)
+- 390+ C programs (currently 393 `.c` files)
+- Topic-wise folders from basics to dynamic memory and file handling
+- Small focused examples for concepts, logic building, and algorithm practice
+- Supporting notes in the [docs/c-programs-analysis.md](docs/c-programs-analysis.md)
 
----
+## Repository Structure
 
-## ✨ Features
-- **400+ Examples**: Pure, raw C programs covering every nook and cranny. 📁
-- **Zero-to-Hero Path**: Progressive learning from variables to self-referential structures. 📈
-- **Real-world Algorithms**: Implementation of Bubble Sort, Binary Search, GCD, Fibonacci, and more. 🤖
-- **File System Mastery**: Comprehensive examples of reading/writing Text and Binary files. 📂
+Programs are grouped by concept:
 
----
+- `c-topic-basics-and-problems`
+- `c-topic-input-output`
+- `c-topic-characters`
+- `c-topic-conversions`
+- `c-topic-arrays`
+- `c-topic-matrices`
+- `c-topic-pointers`
+- `c-topic-strings`
+- `c-topic-structures`
+- `c-topic-functions-and-preprocessor`
+- `c-topic-recursion`
+- `c-topic-number-theory`
+- `c-topic-math`
+- `c-topic-patterns`
+- `c-topic-dynamic-memory`
+- `c-topic-file-io`
+- `c-topic-misc`
 
-## 📚 Topics Covered
+Additional folders:
 
-This repository is organized logicially by programming concepts:
+- `docs` for analysis and documentation
+- `files` for sample data used by file I/O programs
 
-| Category | Key Concepts Covered |
-| :--- | :--- |
-| **Basics** 🏗️ | Data Types, `sizeof`, Constants, Operators, I/O Buffering |
-| **Control Flow** 🔄 | If-Else, Switch-Case, While, For, Do-While loops |
-| **Functions** 🛠️ | Parameters, Scope, Static Variables, Struct Returns |
-| **Recursion** 🌀 | Fibonacci, Factorial, GCD, Pascal's Triangle, String Reversal |
-| **Arrays & Matrices** 📊 | 1D/2D Arrays, Searching, Sorting, Matrix Multiplication |
-| **Pointers** 📍 | Dereferencing, Arithmetic, Double Pointers, Function Pointers |
-| **Strings** 🔡 | Manipulation, Palindromes, Permutations, Custom I/O |
-| **Structures & Unions** 🏗️ | Self-ref Structures, Arrays of Structs, Unions Difference |
-| **Dynamic Memory** 🧠 | `malloc`, `calloc`, `realloc`, `free`, Dynamic Structs |
-| **File I/O** 📂 | `fopen`, `fseek`, `ftell`, Binary I/O, Error Handling |
-| **Algorithms** 🤖 | Binary Search, Bubble Sort, Collatz, Prime Gens |
-| **Mathematics** 📐 | Quadratic Equations, Calculus Series, Number Properties |
+## How to Compile and Run
 
----
+### Option 1: VS Code
 
-## 🛠️ How to Compile & Run
+1. Open this repository in VS Code.
+2. Open any `.c` file.
+3. Use Run Without Debugging.
 
-### 💻 Using VS Code (Recommended)
-1. Open this repository in **VS Code**.
-2. Open any `.c` file you want to execute.
-3. Run the file by clicking **Run Without Debugging** from the top menu, or simply press `Ctrl + Shift + F5`.
+### Option 2: Terminal (gcc)
 
----
-
-## 💡 Pro-Tip (Manual Compilation)
-> If you prefer the terminal, make sure you have `gcc` (GNU Compiler Collection) installed on your system.
-
-### Compiling a Single File
 ```bash
-gcc -o output_name filename.c
+gcc -Wall -Wextra -std=c11 -o program path/to/file.c
+./program
 ```
 
-### Running the Executable
+Example:
+
 ```bash
-./output_name
+gcc -Wall -Wextra -std=c11 -o array_linear_search c-topic-arrays/array_linear_search.c
+./array_linear_search
 ```
 
----
+## License
 
-## 📂 Explore the Repository 🔍
-
-This project contains nearly **400 practice programs**, each named descriptively to reflect the concept it demonstrates. Whether you're investigating loop applications or mastering memory, every file serves as a focused learning module. A comprehensive breakdown of every single file can be found in the **[c-programs-analysis.md](./docs/c-programs-analysis.md)**. Check it out for specific details on each program!
-
----
-
-### 👨‍💻 Happy Coding!
-*May your pointers always point to valid memory and your semicolons never be missing.* 😉
+This repository is licensed under the terms in [LICENSE](LICENSE).
