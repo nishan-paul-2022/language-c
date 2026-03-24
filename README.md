@@ -1,79 +1,68 @@
+<div align="center">
+
 # C Language: From the Core 🚀
 
-> A structured, hands-on C programming journey with 390+ practice programs.
+### Learn C through focused, structured, and practical coding.
 
-[![Language: C](https://img.shields.io/badge/Language-C-blue.svg)](#)
-[![Programs](https://img.shields.io/badge/Programs-393-success.svg)](#)
-[![Topics](https://img.shields.io/badge/Topics-17-informational.svg)](#)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
+[![Language: C](https://img.shields.io/badge/Language-C-00599C.svg)](#)
+[![Programs](https://img.shields.io/badge/Programs-393-2E8B57.svg)](#)
+[![Topics](https://img.shields.io/badge/Topics-17-1E90FF.svg)](#)
+[![License](https://img.shields.io/badge/License-MIT-696969.svg)](LICENSE)
 
-## ✨ Why This Repository?
+</div>
 
-This repository is built for learners who want to master C through consistent practice.
+## ✨ Why This Repository
 
-- 📚 393 focused C programs for concept clarity
-- 🧠 Topic-wise progression from basics to advanced areas
-- 🛠️ Perfect for revision, interview prep, and logic building
-- 📝 Companion analysis notes in [c-programs-analysis.md](c-programs-analysis.md)
+This repository is built for step-by-step C mastery with clear topic progression and hands-on practice.
 
-## 🧭 Learning Roadmap
+| What You Get | Details |
+|---|---|
+| 📚 Practice Set | 393 focused C programs |
+| 🧠 Learning Flow | Basics to advanced topics in sequence |
+| 🛠️ Skill Building | Logic, syntax confidence, and problem-solving |
+| 📝 Notes | [c-programs-analysis.md](c-programs-analysis.md) |
 
-Programs are organized in a clean, step-by-step path:
+## 🧭 Topic Roadmap
 
-| Folder |
-|---|
-| `01-basics-and-problems` |
-| `02-input-output` |
-| `03-characters` |
-| `04-conversions` |
-| `05-arrays` |
-| `06-matrices` |
-| `07-pointers` |
-| `08-strings` |
-| `09-structures` |
-| `10-functions-and-preprocessor` |
-| `11-recursion` |
-| `12-number-theory` |
-| `13-math` |
-| `14-patterns` |
-| `15-dynamic-memory` |
-| `16-file-io` |
-| `17-misc` |
+| Emoji | Folder | Focus |
+|:---:|---|---|
+| 🌱 | `01-basics-and-problems` | Fundamentals and beginner logic |
+| ⌨️ | `02-input-output` | Input/output handling |
+| 🔤 | `03-characters` | Character operations |
+| 🔁 | `04-conversions` | Type and value conversions |
+| 🧩 | `05-arrays` | Array problems and traversal |
+| 🧮 | `06-matrices` | 2D arrays and matrix operations |
+| 👉 | `07-pointers` | Pointer fundamentals and usage |
+| 🧵 | `08-strings` | String manipulation |
+| 🏗️ | `09-structures` | User-defined data grouping |
+| ⚙️ | `10-functions-and-preprocessor` | Reusable logic and macros |
+| 🔄 | `11-recursion` | Recursive thinking and patterns |
+| 🔢 | `12-number-theory` | Number properties and logic |
+| 📐 | `13-math` | Mathematical programming practice |
+| 🎨 | `14-patterns` | Pattern generation and nested loops |
+| 🧠 | `15-dynamic-memory` | Memory allocation and safety |
+| 📂 | `16-file-io` | File read/write workflows |
+| 🎯 | `17-misc` | Mixed and extra practice problems |
 
-## ⚡ Quick Start
+## ⚙️ Setup First (VS Code)
 
-### Option 1: VS Code Dev Containers (Recommended 🚀)
-1. Ensure you have [Docker](https://www.docker.com/) and the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) installed.
-2. Open this repository in VS Code.
-3. When prompted, click **Reopen in Container** (or use the Command Palette: `Dev Containers: Reopen in Container`).
-4. Open any `.c` file and press `F5` or use **Run Without Debugging** to compile and run instantly.
+1. Install [VS Code](https://code.visualstudio.com/).
+2. Install a C/C++ compiler:
+   - Linux: `gcc` or `g++` using your package manager
+   - Windows: MinGW-w64 or MSYS2
+   - macOS: Xcode Command Line Tools
+3. Install the [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools).
+4. Open this repository in VS Code.
 
-### Option 2: Local VS Code
-1. Open this repository in VS Code.
-2. Open any `.c` file.
-3. Run with **Run Without Debugging**.
+## ▶️ Run from VS Code
 
-### Option 3: Terminal (`gcc`)
+1. Open any `.c` file from a topic folder.
+2. Click **Run Without Debugging** (or press `Ctrl+F5`).
+3. View output in the integrated terminal.
 
-```bash
-gcc -Wall -Wextra -std=c11 -o program path/to/file.c
-./program
-```
+## 🎯 Study Tips
 
-Example:
-
-```bash
-gcc -Wall -Wextra -std=c11 -o array_linear_search 05-arrays/array_linear_search.c
-./array_linear_search
-```
-
-## 🎯 Best Ways to Use This Repo
-
-- Solve one folder at a time, in order.
-- Revisit older folders weekly for retention.
-- Modify existing solutions to test your understanding.
-- Track your progress by marking completed files.
-
-## 📄 License
-
-Licensed under the terms in [LICENSE](LICENSE).
+- Follow folders in order for best progression.
+- Re-solve earlier programs weekly for retention.
+- Modify solved files to test deeper understanding.
+- Keep a checklist of completed files.
