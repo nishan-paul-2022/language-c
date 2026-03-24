@@ -42,13 +42,18 @@ Programs are organized in a clean, step-by-step path:
 
 ## ⚡ Quick Start
 
-### Option 1: VS Code (Recommended)
+### Option 1: VS Code Dev Containers (Recommended 🚀)
+1. Ensure you have [Docker](https://www.docker.com/) and the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) installed.
+2. Open this repository in VS Code.
+3. When prompted, click **Reopen in Container** (or use the Command Palette: `Dev Containers: Reopen in Container`).
+4. Open any `.c` file and press `F5` or use **Run Without Debugging** to compile and run instantly.
 
+### Option 2: Local VS Code
 1. Open this repository in VS Code.
 2. Open any `.c` file.
 3. Run with **Run Without Debugging**.
 
-### Option 2: Terminal (`gcc`)
+### Option 3: Terminal (`gcc`)
 
 ```bash
 gcc -Wall -Wextra -std=c11 -o program path/to/file.c
