@@ -60,15 +60,7 @@ gcc -o output_name filename.c
 
 ## 📂 Explore the Repository 🔍
 
-This project contains nearly **400 practice programs**, each named descriptively to reflect the concept it demonstrates. Whether you're investigating loop applications or mastering memory, every file serves as a focused learning module.
-
-- `arithmetic_series_sum.c` - Practical application of loops. 🔢
-- `dynamic_memory_management.c` - Learn to manage heap memory. 🧠
-- `file_io_read_write_mixed.c` - Master persistent data storage. 📁
-- `self_referential_structure_linked_list.c` - Intro to Data Structures. 🔗
-
-> [!NOTE]
-> Since there are hundreds of files, a comprehensive breakdown of every single file can be found in the **[ANALYSIS.md](./ANALYSIS.md)**. Check it out for specific details on each program!
+This project contains nearly **400 practice programs**, each named descriptively to reflect the concept it demonstrates. Whether you're investigating loop applications or mastering memory, every file serves as a focused learning module. A comprehensive breakdown of every single file can be found in the **[ANALYSIS.md](./ANALYSIS.md)**. Check it out for specific details on each program!
 
 ---
 
