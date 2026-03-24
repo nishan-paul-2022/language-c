@@ -53,6 +53,3 @@ dkms.conf
 
 # Debug information files
 *.dwo
-
-# Editor
-.vscode/

@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "ms-vscode.cpptools",
+    "dbaeumer.vscode-eslint",
+    "grapecity.gc-excelviewer",
+    "mhutchie.git-graph",
+    "github.copilot-chat",
+    "github.vscode-pull-request-github",
+    "kilocode.kilo-code",
+    "lottiefiles.vscode-lottie",
+    "bierner.markdown-mermaid",
+    "pkief.material-icon-theme",
+    "csstools.postcss",
+    "esbenp.prettier-vscode",
+    "jock.svg",
+    "tomoki1207.pdf"
+  ]
+}
