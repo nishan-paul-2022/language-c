@@ -43,8 +43,15 @@ This repository is organized logicially by programming concepts:
 
 ## 🛠️ How to Compile & Run
 
-## 💡 Pro-Tip
-> Make sure you have `gcc` (GNU Compiler Collection) installed on your system.
+### 💻 Using VS Code (Recommended)
+1. Open this repository in **VS Code**.
+2. Open any `.c` file you want to execute.
+3. Run the file by clicking **Run Without Debugging** from the top menu, or simply press `Ctrl + Shift + F5`.
+
+---
+
+## 💡 Pro-Tip (Manual Compilation)
+> If you prefer the terminal, make sure you have `gcc` (GNU Compiler Collection) installed on your system.
 
 ### Compiling a Single File
 ```bash
