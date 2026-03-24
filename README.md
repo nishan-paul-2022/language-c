@@ -31,11 +31,6 @@ Programs are grouped by concept:
 - `c-topic-file-io`
 - `c-topic-misc`
 
-Additional folders:
-
-- `docs` for analysis and documentation
-- `files` for sample data used by file I/O programs
-
 ## How to Compile and Run
 
 ### Option 1: VS Code
