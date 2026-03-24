@@ -51,7 +51,7 @@ This repository is built for step-by-step C mastery with clear topic progression
    - Linux: `gcc` or `g++` using your package manager
    - Windows: MinGW-w64 or MSYS2
    - macOS: Xcode Command Line Tools
-3. Install the [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools).
+3. Install [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) on VS Code.
 4. Open this repository in VS Code.
 
 ## ▶️ Run from VS Code
