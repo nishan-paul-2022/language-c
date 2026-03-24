@@ -1,4 +1,4 @@
-# 🚀 C Language: From the Core 🧱
+# 🚀 C Language: From the Core
 
 Welcome to the ultimate repository for learning **C Programming** from the ground up! Whether you are a beginner starting with `Hello World` or an enthusiast diving into **Dynamic Memory Management** and **System-level I/O**, this repo has something for you. 🌟
 
