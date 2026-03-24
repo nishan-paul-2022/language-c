@@ -24,20 +24,20 @@ Welcome to the ultimate repository for learning **C Programming** from the groun
 
 This repository is organized logicially by programming concepts:
 
-| Category | Key Concepts Covered | Emojis |
-| :--- | :--- | :---: |
-| **Basics** | Data Types, `sizeof`, Constants, Operators, I/O Buffering | 🏗️ |
-| **Control Flow** | If-Else, Switch-Case, While, For, Do-While loops | 🔄 |
-| **Functions** | Parameters, Scope, Static Variables, Struct Returns | 🛠️ |
-| **Recursion** | Fibonacci, Factorial, GCD, Pascal's Triangle, String Reversal | 🌀 |
-| **Arrays & Matrices** | 1D/2D Arrays, Searching, Sorting, Matrix Multiplication | 📊 |
-| **Pointers** | Dereferencing, Arithmetic, Double Pointers, Function Pointers | 📍 |
-| **Strings** | Manipulation, Palindromes, Permutations, Custom I/O | 🔡 |
-| **Structures & Unions** | Self-ref Structures, Arrays of Structs, Unions Difference | 🏗️ |
-| **Dynamic Memory** | `malloc`, `calloc`, `realloc`, `free`, Dynamic Structs | 🧠 |
-| **File I/O** | `fopen`, `fseek`, `ftell`, Binary I/O, Error Handling | 📂 |
-| **Algorithms** | Binary Search, Bubble Sort, Collatz, Prime Gens | 🤖 |
-| **Mathematics** | Quadratic Equations, Calculus Series, Number Properties | 📐 |
+| Category | Key Concepts Covered |
+| :--- | :--- |
+| **Basics** 🏗️ | Data Types, `sizeof`, Constants, Operators, I/O Buffering |
+| **Control Flow** 🔄 | If-Else, Switch-Case, While, For, Do-While loops |
+| **Functions** 🛠️ | Parameters, Scope, Static Variables, Struct Returns |
+| **Recursion** 🌀 | Fibonacci, Factorial, GCD, Pascal's Triangle, String Reversal |
+| **Arrays & Matrices** 📊 | 1D/2D Arrays, Searching, Sorting, Matrix Multiplication |
+| **Pointers** 📍 | Dereferencing, Arithmetic, Double Pointers, Function Pointers |
+| **Strings** 🔡 | Manipulation, Palindromes, Permutations, Custom I/O |
+| **Structures & Unions** 🏗️ | Self-ref Structures, Arrays of Structs, Unions Difference |
+| **Dynamic Memory** 🧠 | `malloc`, `calloc`, `realloc`, `free`, Dynamic Structs |
+| **File I/O** 📂 | `fopen`, `fseek`, `ftell`, Binary I/O, Error Handling |
+| **Algorithms** 🤖 | Binary Search, Bubble Sort, Collatz, Prime Gens |
+| **Mathematics** 📐 | Quadratic Equations, Calculus Series, Number Properties |
 
 ---
 
@@ -60,7 +60,7 @@ gcc -o output_name filename.c
 
 ## 📂 Explore the Repository 🔍
 
-This project contains nearly **400 practice programs**, each named descriptively to reflect the concept it demonstrates. Whether you're investigating loop applications or mastering memory, every file serves as a focused learning module. A comprehensive breakdown of every single file can be found in the **[ANALYSIS.md](./ANALYSIS.md)**. Check it out for specific details on each program!
+This project contains nearly **400 practice programs**, each named descriptively to reflect the concept it demonstrates. Whether you're investigating loop applications or mastering memory, every file serves as a focused learning module. A comprehensive breakdown of every single file can be found in the **[c-programs-analysis.md](./docs/c-programs-analysis.md)**. Check it out for specific details on each program!
 
 ---
 
